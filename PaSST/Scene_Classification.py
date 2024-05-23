@@ -15,7 +15,7 @@ import tqdm
 import copy
 
 # Set the run mode (scene or location)
-run_mode = 'Scene'
+run_mode = 'scene'
 
 # Import data
 data = pd.read_csv("your_train_embedding_csv_file_path")
