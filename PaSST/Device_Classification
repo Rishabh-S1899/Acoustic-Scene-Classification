@@ -1,4 +1,4 @@
-#Run this script for scene classification on embeddings using PaSST
+#Run this script for device classification on embeddings using PaSST
 import matplotlib.pyplot as plt
 import pandas as pd
 import torch 
