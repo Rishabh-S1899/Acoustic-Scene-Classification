@@ -8,7 +8,7 @@ These kinds of variations in the available data introduce bias and leads to degr
 This bias necessitates the need a robust model design to address the above challenge of multiple domains which get introduced across different recording conditions.
 This project  aims to develop a robust end to end Acoustic Scene Classification (ASC) system capable of adapting to these diverse recording conditions, regardless of cities or devices. 
 
-#Dataset Description
+Dataset Description
 
 This Project utilises TAU Urban Acoustic Scenes 2020 Mobile, Development dataset provided by Dcase2020 challange for subtask-A (Acoustic Scene Classification).
 
