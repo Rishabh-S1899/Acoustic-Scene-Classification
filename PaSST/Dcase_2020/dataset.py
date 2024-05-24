@@ -28,15 +28,13 @@ def default_config():
     subsample = False  # subsample squares from the dataset
     roll = True  # apply roll augmentation
     fold = 1
-    base_dir = "C:\\code_start\\CS-671\\PaSST-main_changed\\Passt_new\\Dcase_2020\\"  # base directory of the dataset as downloaded
+    base_dir = "/users/PaSST_data/"  # base directory of the dataset as downloaded
     if LMODE:
         base_dir = "/system/user/publicdata/CP/audioset/audioset_hdf5s/esc50/"
-    meta_train_csv = base_dir + r"meta\Dcase_2020_train.csv"
-    meta_test_csv = base_dir + r'meta\Dcase2020_val.csv'
-    audio_train_path= 'C:\\code_start\\CS-671\\PaSST-main_changed\\Dcase2020\\Train\\Audio_files\\'
-    audio_test_path= 'C:\\code_start\\CS-671\\PaSST-main_changed\\Dcase2020\\Test\\'
-    # meta_test_csv=base_dir+ r'meta\updated_test_file.csv'
-    # audio_test_path= r'C:\code_start\CS-671\PaSST-main_changed\Dcase2020\Test'
+    meta_train_csv = base_dir + r"meta/Dcase_2020_train.csv"
+    meta_test_csv = base_dir + r'meta/Dcase2020_val.csv'
+    audio_train_path= base_dir + 'Audio_files/train'
+    audio_test_path= base_dir + 'Audio_files/test'
     ir_path = base_dir + "irs/"
     num_of_classes = 10
 
