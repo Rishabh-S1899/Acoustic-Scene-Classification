@@ -73,10 +73,10 @@ def default_config():
 Choose the required model from the PaSST models. Select the optimum values for time and frequency patchouts. Run the following command to finetune 
 
 ```bash
-python3 ex_dcase.py with models.net.s_patchout_t=5 models.net.s_patchout_f=1  basedataset.fold=1 -p
+python ex_dcase.py with models.net.s_patchout_t=5 models.net.s_patchout_f=1  basedataset.fold=1 -p
 ```
 
-# Changing the depth of transfromer to be finetuned
+# Changing the depth of transformer to be finetuned
 
 You can modify the depth of transformer to be finetuned by heading over to models/passt.py and change the depth parameter as required. We have used the passt_s_kd_p16_128_486. Head overt to function definitoin of model and modify here:
 ```python
