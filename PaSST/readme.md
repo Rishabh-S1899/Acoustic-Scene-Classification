@@ -133,3 +133,7 @@ data = pd.read_csv("your_train_embedding_csv_file_path")
 test_data = pd.read_csv("your_test__embedding_csv_file_path")
 ```
 
+## Librosa Version Clash 
+
+Some users may get a librosa version clash while trying to extract embeddings using models/passt.py directly. To resolve this, you can take an alternate route to first generate mel spectograms using librosa in a different enviornment (python 3.12) worked for me, and then generate embeddings using passt models. 
+
